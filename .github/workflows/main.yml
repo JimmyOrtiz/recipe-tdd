@@ -1,6 +1,6 @@
 name: Recipe
 
-on: [push]
+on: [push]:
   paths-ignore:
     - "migrations"
     - "_pycache__"

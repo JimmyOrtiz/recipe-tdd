@@ -1,7 +1,7 @@
 name: Recipe
 
 on:
-  [push]:
+  push:
     branches:
       - master
     paths-ignore:

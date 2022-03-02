@@ -28,4 +28,4 @@ jobs:
           pip install docker-compose flake8
       - name: Testing and lint with flake8
         run: |
-          docker-compose run app sh -c "python manage.py test && flake8"
+          docker-compose run app sh -c "python manage.py test"

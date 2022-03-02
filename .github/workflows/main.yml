@@ -3,10 +3,10 @@ name: Recipe
 on:
   push:
     paths-ignore:
-      - "migrations"
-      - "_pycache__"
-      - "settings.py"
-      - "manage.py"
+      - "./app/recipe/migrations"
+      - "./app/_pycache__"
+      - "./app/settings.py"
+      - "./app/manage.py"
       - "**.md"
 
 jobs:

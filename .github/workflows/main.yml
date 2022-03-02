@@ -1,18 +1,13 @@
 name: Recipe
 
-on:
-  push:
-    branches:
-      - master
-    paths-ignore:
-      - "migrations"
-      - "_pycache__"
-      - "settings.py"
-      - "manage.py"
-      - "**.md"
-  pull_request:
-    paths-ignore:
-      - "**.md"
+on: [push]
+
+  paths-ignore:
+    - "migrations"
+    - "_pycache__"
+    - "settings.py"
+    - "manage.py"
+    - "**.md"
 
 jobs:
   build:

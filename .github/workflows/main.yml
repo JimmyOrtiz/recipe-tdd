@@ -1,12 +1,13 @@
 name: Recipe
 
-on: [push]:
-  paths-ignore:
-    - "migrations"
-    - "_pycache__"
-    - "settings.py"
-    - "manage.py"
-    - "**.md"
+on:
+  push:
+    paths-ignore:
+      - "migrations"
+      - "_pycache__"
+      - "settings.py"
+      - "manage.py"
+      - "**.md"
 
 jobs:
   build:
